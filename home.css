@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Electrolize&display=swap");
+
+/* Login status notification bar */
+.login-status-bar {
+  width: 100%;
+  background: #ffe0e0;
+  color: #1e1e1e;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 1rem;
+  border-bottom: 2px solid #f5c6cb;
+}
+.login-status-bar.logged-in {
+  background: #e0ffe6;
+  color: #256029;
+  border-bottom: 2px solid #b7ebc6;
+}
+
+:root {
+  --blue: #005d63;
+  --light-blue: #0074ff;
+  --dark-text: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Electrolize", sans-serif;
+}
+
+body {
+  font-family: "Electrolize", sans-serif;
+  color: var(--dark-text);
+  background: linear-gradient(
+    120deg,
+    #cab6b6 0%,
+    #bacde1 40%,
+    #8290d4 80%,
+    #9bca85 100%
+  );
+  /* Tech & hackathon inspired gradient */
+}
+
+.site-header {
+  border-bottom: none;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.07), 0 1.5px 0 #e0e0e0;
+  border-radius: 0 0 8px 8px;
+  margin-bottom: 12px;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 32px;
+}
+.nav-left {
+  gap: 50px;
+
+  /* Create a vibrant gradient text color */
+  background: linear-gradient(90deg, #020202 0%, #5638e8 50%, #716161 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: rem;
+  font-weight: 70;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.nav-right .signup-btn {
+  background-color: var(--light-blue);
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 4px;
+}
+.nav-right .login-btn {
+  background-color: var(--light-blue);
+  border: none;
+  padding: 8px 16px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 32px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+
+.hero-text p {
+  font-size: 1.125rem;
+  margin-bottom: 24px;
+}
+
+.hero-buttons .btn {
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--light-blue);
+  color: #fff;
+}
+
+.secondary-btn {
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.trusted {
+  margin-top: 40px;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  color: #777;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 16px;
+}
+
+.logos i {
+  font-size: 30px; /* Icon size */ /* Icon color */
+  cursor: pointer; /* Pointer on hover */
+}
+
+.hero-image img {
+  max-width: 500px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.search input {
+  width: 300px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-btn {
+  margin-left: 8px;
+  padding: 12px 20px;
+  background-color: var(--light-blue);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
